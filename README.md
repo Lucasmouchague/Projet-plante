@@ -88,7 +88,7 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 Vous selectionez vôtre plante sur la page d'acceuille, ensuite aller sur la page 'Ma Plante'.
 Sur cette page si vous allez pouvoir voire vôtre plante séléctionné au préalable + la valeur des capteurs en directe, actualisé toute les 30 secondes.
 
- ![picture](/mcd.png)
+ ![picture](/m.PNG)
 
 
 
