@@ -18,3 +18,18 @@ Vous devez connecter vos capteurs comme sur le schéma
 C'est un capteur numérique on doit connecter la broche Vin sur la broche 17 ( 3.3V )  de la raspberry pi. La broche GND sur la broche 25 ( GND ). La broche SDA sur la broche 3 ( GPIO 2 ) du raspberry pi et la broche SCL sur la broche 5 ( GPIO 3 ).
 ### Le capteur DHT 11
 Pour le capteur DHT 11 vous devez brancher la broche gauche du DHT 11 sur la broche 7 du raspberry pi, la broche du millieu sur la broche 2 du raspberry pi et la broche de droite sur la broche 6 du raspberry pi
+
+
+## Partie BDD
+
+ - 1 Creation de la BDD
+ ![picture](/bdd.png)
+ 
+ - Utilisation de la BDD en html css php
+ ![picture](/accueil.png)
+ 
+ `Sur la premiere page vous pouvez retrouver un slider qui regroupe chaque plantes avec leurs informations dessus `
+ 
+ ![picture](/page2.png)
+ 
+ `Sur la deuxieme page vous pouvez ajouter et modifier toutes les informations des plantes dans la bdd `
