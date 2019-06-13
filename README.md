@@ -22,7 +22,7 @@ Pour le capteur DHT 11 vous devez brancher la broche gauche du DHT 11 sur la bro
 
 ## Partie BDD
 
- - 1 Creation de la BDD
+ - Creation de la BDD
  ![picture](/bdd.png)
  
  - Utilisation de la BDD en html css php
