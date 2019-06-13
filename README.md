@@ -30,6 +30,7 @@ Pour le capteur DHT 11 vous devez brancher la broche gauche du DHT 11 sur la bro
  
  `Sur la premiere page vous pouvez retrouver un slider qui regroupe chaque plantes avec leurs informations dessus `
  
- ![picture](/page2.png)
+ ![picture](/bdd1.png)
+ ![picture](/bdd2.png)
  
  `Sur la deuxieme page vous pouvez ajouter et modifier toutes les informations des plantes dans la bdd `
