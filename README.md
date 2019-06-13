@@ -2,7 +2,7 @@
 ## Présentation des membres du groupe
 ### Lucas Mouchague :
 #### Contribution au projet :
-	Réalisation du programme pour récupérer la luminosité la température et l’humidité puis 	insertion des variables dans la base de données et algorigramme puis schéma de cablage.
+Réalisation du programme pour récupérer la luminosité la température et l’humidité puis insertion des variables dans la base de données et algorigramme puis schéma de cablage.
 #### Difficultés : 
 Compréhension du programme.
 #### Axes de progression : 
