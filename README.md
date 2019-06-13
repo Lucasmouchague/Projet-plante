@@ -19,7 +19,17 @@ C'est un capteur numérique on doit connecter la broche Vin sur la broche 17 ( 3
 ### Le capteur DHT 11
 Pour le capteur DHT 11 vous devez brancher la broche gauche du DHT 11 sur la broche 7 du raspberry pi, la broche du millieu sur la broche 2 du raspberry pi et la broche de droite sur la broche 6 du raspberry pi
 
-
+## Programme
+### Exécution du programme
+Pour executer le programme vous devez d'abord clone ce repository
+```
+git clone https://github.com/Lucasmouchague/Projet-plante.git && cd Projet-plante/Programme
+```
+Pour executer le programme en daemon lancer la commande suivante.
+```
+python3 plante.py &
+```
+et voila le programme est lancé en tâche de fond.
 ## Partie BDD
 
  - Creation de la BDD
