@@ -34,3 +34,54 @@ Pour le capteur DHT 11 vous devez brancher la broche gauche du DHT 11 sur la bro
  ![picture](/bdd2.png)
  
  `Sur la deuxieme page grace au bouton modifier la bdd vous pouvez ajouter et modifier toutes les informations des plantes dans la bdd `
+## Partie Serveur / Page MaPlante.php
+### - Création d'un serveur LAMP:
+APACHE:
+```
+sudo apt install apache2
+
+sudo chown -R pi:www-data /var/www/html/
+sudo chmod -R 770 /var/www/html/
+```
+PHP:
+```
+sudo apt install php php-mbstring
+```
+MySQL:
+```
+
+sudo apt install mysql-server php-mysq
+
+lsudo mysql --user=root
+
+DROP USER 'root'@'localhost';
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost’;
+```
+PhpMyAdmin:
+```
+sudo apt install phpmyadmin
+
+sudo phpenmod mysqli
+sudo /etc/init.d/apache2 restart
+
+sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+```
+### Redirection de port:
+ ![picture](/port.png)
+### DYNDNS:
+ ![picture](/dyndns.png)
+## Page MaPlante.php:
+### MCD:
+ ![picture](/mcd.png)
+### La page web:
+Vous selectionez vôtre plante sur la page d'acceuille, ensuite aller sur la page 'Ma Plante'.
+Sur cette page si vous allez pouvoir voire vôtre plante séléctionné au préalable + la valeur des capteurs en directe, actualisé toute les 30 secondes.
+
+ ![picture](/mcd.png)
+
+
+
+
+
+
