@@ -1,4 +1,29 @@
 # Projet-plante
+## Présentation des membres du groupe
+### Lucas Mouchague :
+#### Contribution au projet :
+	Réalisation du programme pour récupérer la luminosité la température et l’humidité puis 	insertion des variables dans la base de données et algorigramme puis schéma de cablage.
+#### Difficultés : 
+Compréhension du programme.
+#### Axes de progression : 
+Recherche sur les librairies
+
+### Gabin Depaire :
+#### Contribution au projet :
+Création de la base de donnée qui regroupe chaque plante. Création du site (PHP/HTML/CSS/BOOTSTRAP). En première page un slider de toutes les plantes avec leurs informations, en seconde page l’utilisateur peut ajouter, modifier n’importe qu’elle plante.
+#### Difficultés : 
+Modification des caractéristiques des plantes depuis le site web.
+#### Axes de progression : 
+J’ai progressé en PHP, SQL et sur le travail de groupe.
+
+### Florian Léveil :
+#### Contribution au projet :
+J'ai paramétré/acheté la Rasberry pour qu'elle puisse accueillir nôtre site web. J'ai fait le MCD / MOT / MLT. J'ai fait la page "ma plante". J'ai établi une possibilité de connexion SSH depuis l'extérieur.
+#### Difficultés : 
+Paramétrer une Rasberry Pi. Réussir à connecter les données de la base de données sur le site, avec une actualisation toutes les 30 secondes. Utilisation de JS pour pouvoir afficher la plante en fonction de l'option choisi dans un menu déroulant.
+#### Axes de progression : 
+Je sais paramétrer une Rasberry pi. J'ai évolué en PHP ainsi qu'en javascript.
+
 
 ## Prérequis
 Vous devez avoir une raspberry pi 3 ( au moins ) et deux capteurs : un capteur DHT 11 et un capteur TSL2561.
